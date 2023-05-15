@@ -1,20 +1,24 @@
 package nl.kza.pipesec;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void shouldBeSecure()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void areWeSecure()
+    {
+        assertEquals( "INSECURE", "KZA" );
     }
 }
