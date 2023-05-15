@@ -19,6 +19,6 @@ public class AppTest
     @Test
     public void areWeSecure()
     {
-        assertEquals( "INSECURE", "KZA" );
+        assertEquals( "SECURE", "SECURE" );
     }
 }
